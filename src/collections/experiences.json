@@ -1,23 +1,23 @@
 [
 	{
-		"dates": "Abril 2024 · Present",
-		"role": "Full stack Developer - Cofundador",
+		"dates": "Mayo 2024 · Septiembre 2024",
+		"role": "Fullstack Developer - Cofundador",
 		"company": "Flufy",
-		"description": "Cofundador de la empresa Flufy, un sistema de servicio de creación de sitios webs para empresas, tiendas y emprededores.",
+		"description": "Cofundador de la empresa Flufy, que ofrece un software como servicio de creación de tiendas online para negocios y emprendedores.",
 		"logo": "/assets/images/experiences/flufy.ico"
 	},
 	{
-		"dates": "Febrero 2024 · Abril 2024",
-		"role": "Full stack Developer - Cofundador",
+		"dates": "Marzo 2024 · Mayo 2024",
+		"role": "Fullstack Developer - Cofundador",
 		"company": "Manganeta",
-		"description": "Cofundador del proyecto Manganeta, un lector de mangas online.",
+		"description": "Cofundador de la web Manganeta, un lector de mangas online.",
 		"logo": "/assets/images/experiences/manganeta.ico"
 	},
 	{
-		"dates": "Diciembre 2021 - Agosto 2022 ",
-		"role": "Full stack Developer - Junior",
-		"company": "Jedify",
-		"description": "Responsable del frontend de un sistema interno para gestión de contratos de la empresa Newsan y Motorola",
+		"dates": "Agosto 2022 - Diciembre 2023 ",
+		"role": "Frontend Developer - Trainee",
+		"company": "Z-Economy Freelance",
+		"description": "Responsable del frontend de un sistema de gestión de presupuesto personal basado en el sistema de sobres.",
 		"logo": "/assets/images/experiences/jedify.ico"
 	}
 ]

@@ -19,14 +19,12 @@ MangaDex</a>, que es una de las mas populares en el mundo.
 - React.js
 - Redux Toolkit
 - Tailwind CSS
-- Attomic design
+- Atomic design
 
 > Back-end
 
 - Express.js
 - Sequelize
 - PostgreSQL
-
-- and more...
 
 **Entre las librerias usadas: Cloudinary, Yup , React-Hook-Form, Jwt, Argon2, etc.**

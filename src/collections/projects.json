@@ -1,27 +1,27 @@
 [
 	{
 		"name": "Flufy",
-		"description": "Servicio para negocios, tiendas y emprendedores. Flufy crea una web de gestión comercial de pedidos en tiempo real.",
+		"description": "Servicio para negocios o emprendedores. Flufy crea una tienda online con gestión de pedidos en tiempo real.",
 		"image": "/assets/images/projects/flufy.png",
 		"url": "/project/flufy"
 	},
 	{
 		"name": "Flufy Store",
-		"description": "Ejemplo de sitio web creado con el sistema de Flufy.",
+		"description": "Ejemplo de una tienda creada con el sistema de Flufy.",
 		"image": "/assets/images/projects/flufystore.png",
-		"url": "/project/flufystore"
+		"url": "/project/flufy-store"
 	},
 	{
 		"name": "Manganeta",
-		"description": "Web social, para lectores de mangas online.",
+		"description": "Lector de mangas online con apartado social.",
 		"image": "/assets/images/projects/manganeta.png",
 		"url": "/project/manganeta"
 	},
 	{
-		"name": "Newsan - Motorola",
-		"description": "Web app, de gestionamiento interno de contratos para Newsan y Motorola.",
-		"image": "/assets/images/projects/newsan.png",
-		"url": "/project/newsan"
+		"name": "Z-Economy",
+		"description": "Aplicación web que ayuda al usuario en el gestionamiento del presupuesto personal.",
+		"image": "/assets/images/projects/z-economy.png",
+		"url": "/project/z-economy"
 	}
 	
 ]

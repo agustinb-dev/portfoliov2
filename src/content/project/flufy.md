@@ -5,28 +5,28 @@ description: Low-Cost Deployment of Federated Universe Personal Instances
 dateFormatted: Nov 27th, 2023
 ---
 
-Flufy es un servicio especializado en la suscripción de una aplicacion web para empresas, tiendas y emprendedores. Tras suscribirte en Flufy, puedes personalizar la estética del sitio web que se te otorga según las necesidades específicas que tengas. Esta plataforma permite gestionar de manera integral todo el sistema de pedidos, proporcionando una solución completa para la administración comercial que facilita una gestión eficiente y personalizada de todos los aspectos de tu negocio.
+Flufy es un software como servicio basado en subscripciones que ofrece una tienda online para negocios o emprendedores.
 
-Además, Flufy incluye un sistema de gestión de equipos y sucursales, que permite crear roles internos para cada sucursal y administrar los productos y servicios específicos de cada una, optimizando la operativa de tu negocio.
+Además, Flufy incluye un sistema de gestión de equipos y sucursales, que permite crear roles internos para cada sucursal y administrar los productos y pedidos específicos de cada una, como también un sistema de gestión de pedidos que se actualiza en tiempo real para optimizar la operativa del negocio e informar apropiadamente al usuario comprador.
 
 <a href="https://flufy.com.ar/" target="_blank" rel="noopener noreferrer">
-  <img src="/assets/images/projects/flufy.png" alt="Flufy page " class="rounded-lg" />
+  <img src="/assets/images/projects/flufy.png" alt="Flufy landing page " class="rounded-lg" />
 </a>
 
-El servicio de Flufy se desarrolló utilizando diversas tecnologías y servicios. El frontend se encuentra dividido en dos proyectos principales, esta sección es la landing page de Flufy, que es la de creación y suscripción, como tambien la plataforma de gestión de equipos y sucursales.
+El servicio de Flufy se desarrolló utilizando diversas tecnologías y servicios. El frontend se encuentra dividido en dos proyectos principales, esta sección es la landing page de Flufy, cuya funcionalidad es tanto la creación y suscripción de la tienda, como también la gestión de equipos y sucursales.
 
 > Front-end
 
 - Next.Js + TypesScript
 - Tailwind CSS
-- useContext
+- React Context
 - Screaming Architecture
 
 > Back-end
 
-- Node.Js + Nest.Js + TypesScript
+- Node.Js + Nest.Js + TypeScript
 - MongoDB + Moongose
-- and more...
+- Socket.io
 
 > Servicios
 
@@ -34,4 +34,4 @@ El servicio de Flufy se desarrolló utilizando diversas tecnologías y servicios
 - Cloudinary
 - Mailersend
 
-**Entre las librerias usadas: Swr, Zod, Yup , React-Hook-Form, Jwt, Argon2, etc.**
+**Entre las librerias usadas: SWR, Zod, Yup , React-Hook-Form, JWT, Argon2, etc.**
