@@ -1,0 +1,62 @@
+---
+import experiences from "../collections/experiences.json";
+import AboutExperience from "../components/about-experience.astro";
+import PageHeading from "../components/page-heading.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="Sobre mí">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading title="Sobre mí" description="Hola 👋 👽" />
+
+    <p class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
+      Agradezco tu tiempo para leer mi mini biografía. Amo la poesia, el arte, la musica y las soluciones que puede
+      aportar la programación 🧑🏻‍💻. Tengo un aprendizaje muy rapido, soy muy creativo, me involucro en lo que hago,
+      autodidacta y siempre estoy buscando aprender cosas nuevas, considero la programación como arte.
+    </p>
+
+    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Experiencia</h2>
+    <div class="px-5 py-10">
+      {
+        experiences.map((experience, loop) => {
+          return (
+            <>
+              {loop == 0 || loop == 1 ? (
+                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
+                  <AboutExperience
+                    dates={experience.dates}
+                    role={experience.role}
+                    company={experience.company}
+                    description={experience.description}
+                    logo={experience.logo}
+                  />
+                </div>
+              ) : (
+                <AboutExperience
+                  dates={experience.dates}
+                  role={experience.role}
+                  company={experience.company}
+                  description={experience.description}
+                  logo={experience.logo}
+                />
+              )}
+            </>
+          );
+        })
+      }
+    </div>
+
+    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Si deseas conocer más</h2>
+    <p class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
+      Puedes contactarme directamente a través de <a
+        href="mailto:astro-aria#miantiao.me"
+        class="text-indigo-600 font-semibold">cristianurieltortoza@gmail.com</a
+      >
+      y seguirme en mi perfil de <a
+        href="https://twitter.com/ccikai"
+        target="_blank"
+        class="text-indigo-600 font-semibold">Instagram</a
+      >
+    </p>
+  </section>
+</Layout>

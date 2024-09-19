@@ -1,0 +1,23 @@
+[
+	{
+		"dates": "Abril 2024 · Present",
+		"role": "Full stack Developer - Cofundador",
+		"company": "Flufy",
+		"description": "Cofundador de la empresa Flufy, un sistema de servicio de creación de sitios webs para empresas, tiendas y emprededores.",
+		"logo": "/assets/images/experiences/flufy.ico"
+	},
+	{
+		"dates": "Febrero 2024 · Abril 2024",
+		"role": "Full stack Developer - Cofundador",
+		"company": "Manganeta",
+		"description": "Cofundador del proyecto Manganeta, un lector de mangas online.",
+		"logo": "/assets/images/experiences/manganeta.ico"
+	},
+	{
+		"dates": "Diciembre 2021 - Agosto 2022 ",
+		"role": "Full stack Developer - Junior",
+		"company": "Jedify",
+		"description": "Responsable del frontend de un sistema interno para gestión de contratos de la empresa Newsan y Motorola",
+		"logo": "/assets/images/experiences/jedify.ico"
+	}
+]
