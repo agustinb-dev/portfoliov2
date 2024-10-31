@@ -2,11 +2,11 @@
   "name": "astro-aria",
   "version": "1",
   "devDependencies": {
-    "@astrojs/check": "0.9.3",
-    "@astrojs/tailwind": "5.1.1",
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/tailwind": "^5.1.2",
     "@biomejs/biome": "1.7.3",
     "@tailwindcss/typography": "0.5.15",
-    "astro": "4.15.7",
+    "astro": "^4.16.8",
     "prettier": "3.3.3",
     "tailwindcss": "3.4.12",
     "typescript": "5.6.2"
@@ -19,5 +19,8 @@
     "astro": "astro",
     "check": "biome check --apply-unsafe ."
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "astro-aria": "file:"
+  }
 }
