@@ -3,21 +3,18 @@
 		"dates": "Mayo 2024 · Septiembre 2024",
 		"role": "Fullstack Developer - Cofundador",
 		"company": "Flufy",
-		"description": "Cofundador de la empresa Flufy, que ofrece un software como servicio de creación de tiendas online para negocios y emprendedores.",
-		"logo": "/assets/images/experiences/flufy.ico"
+    "description": "Co-fundador de Flufy, una plataforma SaaS destinada a negocios y emprendedores. Entre mis contribuciones más destacadas se encuentra la integración de Mercado Pago para la gestión de suscripciones, así como la implementación de WebSockets que permiten una comunicación en tiempo real entre negocios y clientes sobre el estado de los pedidos. También implementé las APIs de Google Places y Maps para obtener los datos de los negocios y mostrar mapas con indicaciones. Desarrollé los sistemas fundamentales de CRUD para productos, categorías y módulos adicionales, además de crear un sistema de colores de temas personalizados y la mayoría de los componentes de la interfaz de usuario. Asimismo, asumí la responsabilidad de la implementación y lanzamiento de la aplicación.",		"logo": "/assets/images/experiences/flufy.ico"
 	},
 	{
 		"dates": "Marzo 2024 · Mayo 2024",
 		"role": "Fullstack Developer - Cofundador",
 		"company": "Manganeta",
-		"description": "Cofundador de la web Manganeta, un lector de mangas online.",
-		"logo": "/assets/images/experiences/manganeta.ico"
+    "description": "Lideré el equipo de frontend de Manganeta, un lector de manga en línea. Supervisé el desarrollo del frontend y colaboré con el equipo de backend. Implementé la obtención de datos desde la API Mangadex, adaptandolos a la app, desarrolle la interfaz del lector de manga, la lógica de búsqueda y enrutamiento. También fui responsable del despliegue y lanzamiento de la aplicación.",		"logo": "/assets/images/experiences/manganeta.ico"
 	},
 	{
 		"dates": "Agosto 2022 - Diciembre 2023 ",
 		"role": "Frontend Developer - Trainee",
-		"company": "Z-Economy Freelance",
-		"description": "Responsable del frontend de un sistema de gestión de presupuesto personal basado en el sistema de sobres.",
-		"logo": "/assets/images/experiences/z-economy.ico"
+		"company": "Z-Economy",
+    "description": "Encargado del desarrollo frontend de una aplicación de gestión de presupuestos personales, implementando características clave como tablas, formularios y gráficos bajo la supervisión de un desarrollador senior.",		"logo": "/assets/images/experiences/z-economy.ico"
 	}
 ]
