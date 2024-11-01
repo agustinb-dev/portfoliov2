@@ -33,4 +33,4 @@ The Flufy service was developed using various technologies and services. The fro
 - Cloudinary
 - Mailersend
 
-**Among the libraries used: Socket.io, SWR, Shadcn/UI, Zod, Yup, React Hook Form, JWT, Argon2, etc.**
+**Other libraries used: Socket.io, SWR, Shadcn/UI, Zod, Yup, React Hook Form, JWT, Argon2, etc.**

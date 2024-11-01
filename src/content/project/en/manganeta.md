@@ -30,4 +30,4 @@ Manganeta features its own REST API; however, the manga content is sourced from 
 > Services
 - Cloudinary
 
-**Libraries used include: Yup, React Hook Form, JWT, Argon2, etc.**
+**Other libraries used: Yup, React Hook Form, JWT, Argon2, etc.**

@@ -6,15 +6,15 @@ dateFormatted: Nov 27th, 2023
 lang: es
 ---
 
-Flufy es un software como servicio basado en subscripciones que ofrece una tienda online para negocios o emprendedores.
+Flufy es un software como servicio (SaaS) basado en subscripciones que ofrece una tienda online para negocios y emprendedores.
 
-Además, Flufy incluye un sistema de gestión de equipos y sucursales, que permite crear roles internos para cada sucursal y administrar los productos y pedidos específicos de cada una, como también un sistema de gestión de pedidos que se actualiza en tiempo real para optimizar la operativa del negocio e informar apropiadamente al usuario comprador.
+Además, Flufy incluye un sistema de gestión de equipos y sucursales, que permite crear roles internos para cada sucursal y administrar los productos y pedidos específicos de cada una, como también un sistema de gestión de pedidos que se actualiza en tiempo real para optimizar la comunicación entre los negocios y los clientes.
 
 <a href="https://flufy.com.ar/" target="_blank" rel="noopener noreferrer">
-  <img src="/assets/images/projects/flufy.png" alt="Flufy landing page " class="rounded-lg" />
+  <img src="/assets/images/projects/flufy.png" alt="Página de inicio de Flufy" class="rounded-lg" />
 </a>
 
-El servicio de Flufy se desarrolló utilizando diversas tecnologías y servicios. El frontend se encuentra dividido en dos proyectos principales, esta sección es la landing page de Flufy, cuya funcionalidad es tanto la creación y suscripción de la tienda, como también la gestión de equipos y sucursales.
+El servicio de Flufy se desarrolló utilizando diversas tecnologías y servicios. El frontend se encuentra dividido en dos proyectos principales, esta sección pertenece a su pagina de inicio, cuya funcionalidad es tanto la creación y suscripción de la tienda, como también la gestión de equipos y sucursales.
 
 > Front-end
 
@@ -35,4 +35,4 @@ El servicio de Flufy se desarrolló utilizando diversas tecnologías y servicios
 - Cloudinary
 - Mailersend
 
-**Entre las librerias usadas: SWR, Zod, Yup , React-Hook-Form, JWT, Argon2, etc.**
+**Entre las librerías usadas: SWR, Zod, Yup , React-Hook-Form, JWT, Argon2, etc.**

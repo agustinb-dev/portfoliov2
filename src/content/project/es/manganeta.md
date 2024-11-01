@@ -6,14 +6,13 @@ dateFormatted: Jul 14th, 2024
 lang: es
 ---
 
-Manganeta es una aplicación web social diseñada para la lectura de mangas en línea. Ofrece una experiencia de lectura fluida e intuitiva, permitiéndote buscar, leer, guardar, comentar tus mangas favoritos y mantener un historial completo de tus lecturas.
+Manganeta es un lector de manga en línea diseñado con características sociales. Proporciona una experiencia de lectura fluida e intuitiva, permitiendo a los usuarios buscar, leer, guardar y comentar sobre sus mangas favoritos, al mismo tiempo que mantiene un historial completo de sus lecturas.
 
 <a href="https://manganeta.onrender.com/" target="_blank" rel="noopener noreferrer">
-  <img src="/assets/images/projects/manganeta.png" alt="Manganeta page"  class="rounded-lg"  />
+  <img src="/assets/images/projects/manganeta.png" alt="Página inicial de Manganeta"  class="rounded-lg"  />
 </a>
 
-Manganeta tienen su propia API REST, aún así los mangas estan alimentados por la API de <a href="https://mangadex.org" target="_blank" rel="noopener noreferrer">
-MangaDex</a>, que es una de las mas populares en el mundo.
+Manganeta cuenta con su propia API REST; sin embargo, el contenido de manga se obtiene de la API de <a href="https://mangadex.org" target="_blank" rel="noopener noreferrer">MangaDex</a>, una de las más populares en el mundo.
 
 > Front-end
 
@@ -28,4 +27,4 @@ MangaDex</a>, que es una de las mas populares en el mundo.
 - Sequelize
 - PostgreSQL
 
-**Entre las librerias usadas: Cloudinary, Yup , React-Hook-Form, Jwt, Argon2, etc.**
+**Entre las librerías usadas: Cloudinary, Yup , React-Hook-Form, Jwt, Argon2, etc.**
