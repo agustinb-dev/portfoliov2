@@ -1,8 +1,9 @@
 ---
-layout: ../../layouts/project.astro
+layout: ../../../layouts/project.astro
 title: Z-Economy
 description: Browser locally uses A
 dateFormatted: Jul 14th, 2024
+lang: en
 ---
 
 Participe en la creación de una aplicación web que permitía a los usuarios gestionar su dinero en base al sistema de gestión de presupuesto basado en sobres, siendo el responsable del frontend en el proyecto.

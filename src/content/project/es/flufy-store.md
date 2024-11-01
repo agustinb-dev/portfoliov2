@@ -1,8 +1,9 @@
 ---
-layout: ../../layouts/project.astro
+layout: ../../../layouts/project.astro
 title: Flufy Store
 description: Low-Cost Deployment of Federated Universe Personal Instances
 dateFormatted: Nov 27th, 2023
+lang: es
 ---
 
 Tienda online creada dentro del servicio de Flufy, puedes visitarla clickeando la imagen de abajo.

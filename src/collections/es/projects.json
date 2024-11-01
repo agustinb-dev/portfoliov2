@@ -3,25 +3,25 @@
 		"name": "Flufy",
 		"description": "Servicio para negocios o emprendedores. Flufy crea una tienda online con gestión de pedidos en tiempo real.",
 		"image": "/assets/images/projects/flufy.png",
-		"url": "/project/flufy"
+		"url": "/es/project/flufy"
 	},
 	{
 		"name": "Flufy Store",
 		"description": "Ejemplo de una tienda creada con el sistema de Flufy.",
 		"image": "/assets/images/projects/flufystore.png",
-		"url": "/project/flufy-store"
+		"url": "/es/project/flufy-store"
 	},
 	{
 		"name": "Manganeta",
 		"description": "Lector de mangas online con apartado social.",
 		"image": "/assets/images/projects/manganeta.png",
-		"url": "/project/manganeta"
+		"url": "/es/project/manganeta"
 	},
 	{
 		"name": "Z-Economy",
 		"description": "Aplicación web que ayuda al usuario en el gestionamiento del presupuesto personal.",
 		"image": "/assets/images/projects/z-economy.png",
-		"url": "/project/z-economy"
+		"url": "/es/project/z-economy"
 	}
 	
 ]

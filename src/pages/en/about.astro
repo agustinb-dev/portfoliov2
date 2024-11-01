@@ -1,0 +1,59 @@
+---
+import experiencesEn from "../../collections/en/experiences.json";
+import AboutExperience from "../../components/about-experience.astro";
+import PageHeading from "../../components/page-heading.astro";
+import Layout from "../../layouts/main.astro";
+---
+
+<Layout title="About Me" locale="en">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading title="About Me" description="Hello 👋 👽" />
+
+    <p class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
+      Thank you for taking the time to read my brief biography. <br />
+      I have a passion for music, gaming, and the solutions that programming can offer 🧑🏻‍💻.
+      I possess a fast learning ability, strong intuition, and logical skills for problem-solving.
+      As a self-taught individual, I am constantly seeking to learn new things.
+      I view programming as a tool to transform ideas into reality.
+    </p>
+
+    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Experiencia</h2>
+    <div class="px-5 py-10">
+      {
+        experiencesEn.map((experience, loop) => {
+          return (
+            <>
+              {loop == 0 || loop == 1 ? (
+                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
+                  <AboutExperience
+                    dates={experience.dates}
+                    role={experience.role}
+                    company={experience.company}
+                    description={experience.description}
+                    logo={experience.logo}
+                  />
+                </div>
+              ) : (
+                <AboutExperience
+                  dates={experience.dates}
+                  role={experience.role}
+                  company={experience.company}
+                  description={experience.description}
+                  logo={experience.logo}
+                />
+              )}
+            </>
+          );
+        })
+      }
+    </div>
+
+    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">If you would like to know more</h2>
+    <p class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
+      You can contact me directly via email: <br /> <a
+      href="mailto:agustinbarcia.dev@gmail.com"
+      class="text-indigo-600 font-semibold">agustinbarcia.dev@gmail.com</a
+    >
+    </p>
+  </section>
+</Layout>

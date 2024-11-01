@@ -1,8 +1,9 @@
 ---
-layout: ../../layouts/project.astro
+layout: ../../../layouts/project.astro
 title: Flufy
 description: Low-Cost Deployment of Federated Universe Personal Instances
 dateFormatted: Nov 27th, 2023
+lang: es
 ---
 
 Flufy es un software como servicio basado en subscripciones que ofrece una tienda online para negocios o emprendedores.

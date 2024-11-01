@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Flufy",
+    "description": "SaaS platform designed for businesses and entrepreneurs. Flufy creates an online store with a clean and modern UI and real-time order management",
+    "image": "/assets/images/projects/flufy.png",
+		"url": "/en/project/flufy"
+	},
+	{
+		"name": "Flufy Store",
+		"description": "Example of a store created with Flufy",
+		"image": "/assets/images/projects/flufystore.png",
+		"url": "/en/project/flufy-store"
+	},
+	{
+		"name": "Manganeta",
+		"description": "Online manga reader with a social features",
+		"image": "/assets/images/projects/manganeta.png",
+		"url": "/en/project/manganeta"
+	},
+	{
+		"name": "Z-Economy",
+		"description": "Web application that assists users in managing their personal budget focused on the envelope system",
+		"image": "/assets/images/projects/z-economy.png",
+		"url": "/en/project/z-economy"
+	}
+	
+]

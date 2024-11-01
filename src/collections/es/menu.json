@@ -1,14 +1,14 @@
 [
 	{
 		"name": "Home",
-		"url": "/"
+		"url": "/es"
 	},
 	{
 		"name": "Projectos",
-		"url": "/projects"
+		"url": "/es/projects"
 	},
 	{
 		"name": "Sobre mí",
-		"url": "/about"
+		"url": "/es/about"
 	}
 ]

@@ -1,8 +1,9 @@
 ---
-layout: ../../layouts/project.astro
+layout: ../../../layouts/project.astro
 title: Manganeta
 description: Browser locally uses A
 dateFormatted: Jul 14th, 2024
+lang: es
 ---
 
 Manganeta es una aplicación web social diseñada para la lectura de mangas en línea. Ofrece una experiencia de lectura fluida e intuitiva, permitiéndote buscar, leer, guardar, comentar tus mangas favoritos y mantener un historial completo de tus lecturas.
