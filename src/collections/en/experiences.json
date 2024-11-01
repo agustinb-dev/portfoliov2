@@ -3,7 +3,7 @@
     "dates": "May 2024 · September 2024",
     "role": "Fullstack Developer - Co-founder",
     "company": "Flufy",
-    "description": "Co-founder of Flufy, a SaaS platform designed for businesses and entrepreneurs. Key contributions included integrating Mercado Pago for subscription management, implementing WebSockets to facilitate real-time communication between businesses and customers regarding order status, and utilizing Google Places and Maps APIs for business data and location services. Developed the core CRUD systems for products, categories, and additional modules features, along with the majority of UI components. Also responsible for the deployment and launch of the application.",
+    "description": "Co-founder of Flufy, a SaaS platform designed for businesses and entrepreneurs. Key contributions included integrating Mercado Pago for subscription management, implementing WebSockets to facilitate real-time communication between businesses and customers regarding order status, and utilizing Google Places and Maps APIs for business data and location services. Developed the core CRUD systems for products, categories, and additional modules features, along with the custom theme colors system and the majority of UI components. Also responsible for the deployment and launch of the application.",
     "logo": "/assets/images/experiences/flufy.ico"
   },
   {
