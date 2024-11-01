@@ -1,0 +1,23 @@
+---
+import { Image } from 'astro:assets';
+import englishFlag from "../assets/images/flags/english-flag.png";
+import spanishFlag from "../assets/images/flags/spanish-flag.png";
+import { languages } from '../i18n/ui';
+
+const { pathname } = new URL(Astro.request.url); // Get the full URL and extract pathname
+const langPrefix = pathname.split('/')[1]; // Extract the current language prefix
+const newPathEnglish = pathname.replace(`/${langPrefix}`, '/en'); // Change to English prefix
+const newPathSpanish = pathname.replace(`/${langPrefix}`, '/es'); // Change to Spanish prefix
+---
+
+<div class="language-picker flex items-center space-x-2 mr-1">
+  <a href={newPathEnglish} class="flex items-center">
+    <Image src={englishFlag} alt="English flag" class="w-7 h-5 mr-1" />
+    {languages.en}
+  </a>
+  <span>/</span>
+  <a href={newPathSpanish} class="flex items-center">
+    <Image src={spanishFlag} alt="Spanish flag" class="w-7 h-5 mr-1" />
+    {languages.es}
+  </a>
+</div>

@@ -2,6 +2,8 @@
 import menusEs from "../collections/es/menu.json"
 import menusEn from "../collections/en/menu.json"
 import Logo from "./logo.astro";
+import LanguagePicker from "./language-picker.astro";
+import ThemeToggleButton from "./theme-toggle-button.astro";
 const { locale } = Astro.props;
 ---
 
@@ -19,7 +21,7 @@ const { locale } = Astro.props;
     >
     </div>
     <nav
-      class="relative z-30 flex flex-row-reverse justify-start w-full text-sm sm:justify-end text-neutral-500 dark:text-neutral-400 sm:flex-row"
+      class="relative z-30 flex flex-row-reverse justify-start items-center w-full text-sm sm:justify-end text-neutral-500 dark:text-neutral-400 sm:flex-row"
     >
       <div id="openMenu" class="flex flex-col items-end justify-center w-6 h-6 ml-4 cursor-pointer sm:hidden">
         <svg
@@ -48,7 +50,7 @@ const { locale } = Astro.props;
       </div>
       <div
         id="menu"
-        class="fixed top-[75px] ease-out duration-300 sm:top-0 w-full left-0 sm:py-0 pt-7 pb-4 dm:mx-0 z-40 flex-col items-end justify-start hidden h-auto text-sm sm:h-auto sm:relative sm:flex-row sm:flex sm:text-sm sm:w-auto sm:pr-0 sm:pt-0"
+        class="fixed top-[75px] ease-out duration-300 sm:top-0 w-full left-0 mr-4 sm:py-0 pt-7 pb-4 dm:mx-0 z-40 flex-col items-end justify-start hidden h-auto text-sm sm:h-auto sm:relative sm:flex-row sm:flex sm:text-sm sm:w-auto sm:pr-0 sm:pt-0"
       >
         <div class="absolute inset-0 top-0 right-0 block w-full h-full px-3 sm:hidden">
           <div
@@ -79,44 +81,8 @@ const { locale } = Astro.props;
           })
         }
       </div>
-      <div
-        id="darkToggle"
-        class="relative flex items-center pl-6 ml-4 font-medium tracking-wide cursor-pointer text-neutral-800 group dark:text-white"
-      >
-        <div
-          class="absolute left-0 flex items-center justify-center w-6 h-6 overflow-hidden border-b border-transparent horizon group-hover:border-neutral-600"
-        >
-          <svg
-            class="absolute w-6 h-6 transition duration-700 transform ease"
-            id="sun"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            ><path
-              d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-            ></path></svg
-          >
-          <svg
-            class="absolute hidden w-6 h-6 transition duration-700 transform ease"
-            id="moon"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            ><path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-            ></path></svg
-          >
-        </div>
-        <span class="hidden sm:inline-block">
-          <span id="dayText" class="ml-2"></span>
-          <span id="nightText" class="hidden ml-2"></span>
-        </span>
-      </div>
+      <LanguagePicker />
+      <ThemeToggleButton />
     </nav>
   </div>
 </header>
