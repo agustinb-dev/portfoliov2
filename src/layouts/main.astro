@@ -38,7 +38,7 @@ const { locale } = Astro.props;
     <SquareLines />
     <Header locale={locale}/>
     <slot />
-    <Footer />
+    <Footer locale={locale}/>
     <script src="../assets/js/main.js"></script>
     <Fragment set:html={import.meta.env.FOOTER_INJECT} />
   </body>
