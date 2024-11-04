@@ -10,14 +10,14 @@
     "dates": "March 2024 · May 2024",
     "role": "Fullstack Developer - Co-founder",
     "company": "Manganeta",
-    "description": "Led the frontend team for Manganeta, an online manga reader. Oversaw frontend development and collaborated closely with the backend team, implementing data fetching and adaptation from MangadexAPI, building the manga reader interface, and developing the search and routing logic. Also responsible for the deployment and launch of the application.",
+    "description": "Led the frontend team for Manganeta, an online manga reader. Oversaw frontend development and collaborated closely with backend team, implemented data fetching and adaptation from MangadexAPI, developed the manga reader interface, and the search and routing logic. Also responsible for the deployment and launch of the application.",
     "logo": "/assets/images/experiences/manganeta.ico"
   },
   {
     "dates": "August 2022 - December 2023",
     "role": "Frontend Developer - Trainee",
     "company": "Z-Economy",
-    "description": "Entrusted with the development of the frontend for a personal budget management application, implementing key features such as tables, forms, and charts under the mentorship of a senior developer.",
+    "description": "Entrusted with the frontend development for a personal budget management application, implementing key features such as tables, forms, and charts under the mentorship of a senior developer.",
     "logo": "/assets/images/experiences/z-economy.ico"
   }
 ]
